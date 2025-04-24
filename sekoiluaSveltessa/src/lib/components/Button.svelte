@@ -16,8 +16,7 @@
 		font-size: 1.2rem;
 		margin: 10px;
 		padding: 10px 20px;
-		background-color: var(--main-color);
-		color: white;
+		background-color: red;
 		border: none;
 		border-radius: 5px;
 		cursor: pointer;
@@ -26,7 +25,7 @@
 	}
 
 	button:hover {
-		background-color: rgba(0, 0, 0, 0.25);
+		background-color: green
 	}
 
 	button:disabled {
