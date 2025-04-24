@@ -30,8 +30,6 @@ _TIKOPARDY on Jeopardy-tyyppinen peli, jossa käytetään Jyväskylän ammattiko
 
 ### Projektiryhmä
 
-_Ketä projektiin kuuluu ja mitkä ovat henkilöiden päävastuut._
-
 | Nimi            | Vastuurooli          |
 | --------------- | -------------------- |
 | Tiitus Juujärvi | Git-päällikkö        |
@@ -45,47 +43,43 @@ _Tavoite on tehdä toimiva projekti, josta voisi olla hyötyä tuleville tietoje
 
 ## Aikataulu
 
-_Kirjaa tähän lukuun aikataulu. Millä tavoin projekti viedään läpi. Voitte itse päättää mikä taso on teidän projektillenne paras._
-
-| Tapahtuma        | Päivämäärä | Muut tiedot/osanottajat                  |
-| ---------------- | ---------- | ---------------------------------------- |
-| Projekti alkaa   | 22.04.2025 | Ohjelmistoprojekti 1 alkaa               |
-| Idean valinta    | 24.04.2025 | Valitaan tuotantoon menevä projekti-idea |
-| ............     | pvm        | Kaikki muut tapahtumat listattuna        |
-| Projekti päättyy | 16.05.2025 | Ohjelmistoprojekti 1 päättyy             |
+| Tapahtuma        | Päivämäärä | Muut tiedot/osanottajat           |
+| ---------------- | ---------- | --------------------------------- |
+| Projekti alkaa   | 22.04.2025 | Ohjelmistoprojekti 1 alkaa        |
+| Idean valinta    | 24.04.2025 | Valittu tuotantoon TIKOPARDY-peli |
+| ............     | pvm        | Kaikki muut tapahtumat listattuna |
+| Projekti päättyy | 16.05.2025 | Ohjelmistoprojekti 1 päättyy      |
 
 ## Raportointi, kommunikointi ja dokumentointi
 
 ### Raportointi
 
-_Kuinka projekti raportoi toiminnastaan? Kuka raportoi, kenelle, ja milloin?_
+_Raportoimme toisillemme omissa ryhmissämme. Opettajille koululla face-to-face tai vaihtoehtoisesti Teamsin välityksellä silloin, kun raportoitavaa on._
 
 ### Tuntikirjaukset
 
-_Kuinka projekti tekee tuntikirjausta? Missä se tehdään, ja miten se jaetaan?_
+_Tuntikirjaukset tehdään materiaalissa olleeseen Excel-pohjaan ja palautetaan päivitetty PDF joka viikko. Ryhmäkohtainen tuntikirjaus tallennetaan erilliseen dokumenttiin._
 
 ### Palaverikäytänteet
 
-_Projektin viikkopalaveri pidetään xxx paikassa xxx. Kuka kirjoittaa palaveripöytäkirjan, ja missä ne elävät?_
+_Projektin viikkopalaveri pidetään perjantaisin Rajakadun kampuksella. Dokumenttipäällikkö kirjoittaa palaveripöytäkirjat. Lisäksi maanantaisin käymme läpi, mitä tulemme milläkin viikolla tekemään._
 
 ### Kommunikointitavat
 
-_Mitkä ovat projektin kommunikointikanavat? Viralliset, epäviralliset? Sisäiset, ulkoiset?_
+_Loimme projektia varten Discord-ryhmän. Tehtäviä seuraamme Trellossa._
 
 ### Dokumentointi
 
-_Kirjaa tähän miten projekti on ajatellut työnsä dokumentoida. Mitä dokumentteja projekti tuottaa?_
+_Dokumentoimme työn etenemistä ainakin tämän dokumentin aikatauluosiossa. Tätä dokumenttia säilytämme Githubissa. Lisäksi kirjoitamme viikkopalavereissa pöytäkirjat; näistä vastuussa dokumenttipäällikkö. Joka maanantai käymme läpi Trellon ja lisäämme sinne viikon tehtävät._
 
 ### Dokumenttien hallinta
 
-_Kuvaa dokumenttien säilytys; kenellä on oikeudet dokumenttien hallintaan, miten backupit on hoidettu, kuinka dokumentteja versioidaan (esim. 1.0, 1.1, 1.2 jne.) ja nimetään (onko esim. dokumentin nimessä versionumero)._
+_Dokumentteja hallinnoi dokumenttipäällikkö. Tämä projektidokumentaatio pidetään Githubissa, palaveripöytäkirjat lähtökohtaisesti dokumenttipäällikön tietokoneella._
 
 ## Riskien hallinta
 
-_Kuvaa tässä kuinka projekti aikoo hallinnoida ja seurata projektiriskejä._
-
 Esimerkiksi näin.
 
-| Riskit                                                       | Todennäköisyys | Impakti | Minimointi                             |
-| ------------------------------------------------------------ | -------------- | ------- | -------------------------------------- |
-| Työntekijät eivät ole motivoituneita ja eivät saavu paikalle | Pieni          | Suuri   | Pidetään työpaikalla kahvia ja pullaa. |
+| Riskit                                                  | Todennäköisyys | Impakti | Minimointi                        |
+| ------------------------------------------------------- | -------------- | ------- | --------------------------------- |
+| Aarnen koneen laturi on rikki ja uusi on vasta tulossa. | Keskikokoinen  | Suuri   | Aarne lataa tietokoneensa kotona. |
