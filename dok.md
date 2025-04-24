@@ -41,7 +41,7 @@ _Ketä projektiin kuuluu ja mitkä ovat henkilöiden päävastuut._
 
 ### Tavoite
 
-_Mikä on ohjelmistoprojektin tavoiteltu lopputulos?_
+_Tavoite on tehdä toimiva projekti, josta voisi olla hyötyä tuleville tietojenkäsittelyopiskelijoille._
 
 ## Aikataulu
 
