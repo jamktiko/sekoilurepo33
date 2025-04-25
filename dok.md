@@ -39,7 +39,7 @@ _TIKOPARDY on Jeopardy-tyyppinen peli, jossa käytetään Jyväskylän ammattiko
 
 ### Tavoite
 
-_Tavoite on tehdä toimiva projekti, josta voisi olla hyötyä tuleville tietojenkäsittelyopiskelijoille._
+_Tavoite on tehdä toimiva projekti, josta voisi olla hyötyä tuleville tietojenkäsittelyopiskelijoille. Sovellus, jonka avulla käsitteitä ja kokonaisuuksia pystyy hahmottamaan paremmin ja oppimaan helposti lähestyttävässä muodossa._
 
 ## Aikataulu
 
@@ -58,11 +58,11 @@ _Raportoimme toisillemme omissa ryhmissämme. Opettajille koululla face-to-face 
 
 ### Tuntikirjaukset
 
-_Tuntikirjaukset tehdään materiaalissa olleeseen Excel-pohjaan ja palautetaan päivitetty PDF joka viikko. Ryhmäkohtainen tuntikirjaus tallennetaan erilliseen dokumenttiin._
+_Tuntikirjaukset tehdään materiaalissa olleeseen Excel-pohjaan ja palautetaan päivitetty PDF joka viikko._
 
 ### Palaverikäytänteet
 
-_Projektin viikkopalaveri pidetään perjantaisin Rajakadun kampuksella. Dokumenttipäällikkö kirjoittaa palaveripöytäkirjat. Lisäksi maanantaisin käymme läpi, mitä tulemme milläkin viikolla tekemään._
+_Projektin viikkopalaveri pidetään perjantaisin koululla. Dokumenttipäällikkö kirjoittaa palaveripöytäkirjat. Lisäksi maanantaisin käymme läpi, mitä tulemme milläkin viikolla tekemään._
 
 ### Kommunikointitavat
 
@@ -74,7 +74,7 @@ _Dokumentoimme työn etenemistä ainakin tämän dokumentin aikatauluosiossa. T�
 
 ### Dokumenttien hallinta
 
-_Dokumentteja hallinnoi dokumenttipäällikkö. Tämä projektidokumentaatio pidetään Githubissa, palaveripöytäkirjat lähtökohtaisesti dokumenttipäällikön tietokoneella._
+_Dokumentteja hallinnoi dokumenttipäällikkö. Tämä projektidokumentaatio pidetään Githubissa, palaveripöytäkirjat lähtökohtaisesti dokumenttipäällikön hallussa._
 
 ## Riskien hallinta
 
