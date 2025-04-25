@@ -111,7 +111,13 @@
 	});
 </script>
 
-<h1>Otsikko</h1>
+<h1>TikoPardy</h1>
+<style>
+	h1 {
+		font-family:Georgia, 'Times New Roman', Times, serif;
+		font-weight: 1500;
+	}
+</style>
 
 <Button
 	onclick={() => {
