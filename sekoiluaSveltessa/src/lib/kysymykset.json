@@ -1,0 +1,52 @@
+[
+	{
+		"kysymys": "Mikä on pääkaupunki Suomessa?",
+		"vastaus": "Helsinki",
+		"vaara": "Tampere"
+	},
+	{
+		"kysymys": "Mikä on Suomen kansalliskukka?",
+		"vastaus": "Suomenruusu",
+		"vaara": "Kielo"
+	},
+	{
+		"kysymys": "Mikä on Suomen kansallislintu?",
+		"vastaus": "Laulujoutsen",
+		"vaara": "Koskikara"
+	},
+	{
+		"kysymys": "Mikä on Suomen kansallispeli?",
+		"vastaus": "Pesäpallo",
+		"vaara": "Jalkapallo"
+	},
+	{
+		"kysymys": "Mikä on Suomen kansallisruoka?",
+		"vastaus": "Karjalanpiirakka",
+		"vaara": "Karjalanpaisti"
+	},
+	{
+		"kysymys": "Mikä on Suomen kansallislaulu?",
+		"vastaus": "Maamme-laulu",
+		"vaara": "Finlandia-hymni"
+	},
+	{
+		"kysymys": "Mikä on Suomen kansalliskala?",
+		"vastaus": "Siika",
+		"vaara": "Ahven"
+	},
+	{
+		"kysymys": "Mikä on Suomen kansallispuu?",
+		"vastaus": "Tervaleppä",
+		"vaara": "Mänty"
+	},
+	{
+		"kysymys": "Mikä on Suomen kansallisväri?",
+		"vastaus": "Sininen ja valkoinen",
+		"vaara": "Punainen ja valkoinen"
+	},
+	{
+		"kysymys": "Mikä on Suomen kansalliseläin?",
+		"vastaus": "Karhu",
+		"vaara": "Susi"
+	}
+]
