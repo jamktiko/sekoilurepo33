@@ -2,6 +2,9 @@
 <script lang="ts">
 	import Button from '$lib/components/Button.svelte';
 	import kysymyksetData from '$lib/kysymykset.json';
+	import Modal from '$lib/components/Modal.svelte';
+	import type Snippet from 'svelte';
+	
 	const randomTaulukko: number[] = [1, 2, 3, 4, 5, 6, 7, 8, 9, 10];
 
 	// Use the imported data directly
@@ -9,6 +12,21 @@
 	
 	// Keep track of used questions
 	let usedQuestionIndices: number[] = [];
+
+	// Modal control
+	let showModal = $state(false);
+	let modalMessage = '';
+	let modalTitle = '';
+	
+	function openModal(title: string, message: string) {
+			modalTitle = title;
+			modalMessage = message;
+			showModal = true;
+	}
+	
+	function closeModal() {
+			showModal = false;
+	}
 
 	function getRandomWrongAnswers(correctAnswer: string, count: number = 2) {
 			// Filter out the current correct answer to avoid duplicates
@@ -35,7 +53,7 @@
 			if (usedQuestionIndices.length >= kysymykset.length) {
 					// Reset used questions if all questions have been shown
 					usedQuestionIndices = [];
-					alert("Kaikki kysymykset on käyty läpi. Aloitetaan alusta!");
+					openModal('Huomio', 'Kaikki kysymykset on käyty läpi. Aloitetaan alusta!');
 			}
 			
 			// Add safety check to prevent errors if array is empty
@@ -74,9 +92,9 @@
 
 	function tarkistusVastaus(valinta: string) {
 			if (valinta === randomKysymys.vastaus) {
-					alert('Oikein!');
+					openModal('Tulokset', 'Oikein!');
 			} else {
-					alert('Väärin!');
+					openModal('Tulokset', 'Väärin! Oikea vastaus on: ' + randomKysymys.vastaus);
 			}
 	}
 	
@@ -100,6 +118,12 @@
 			// Randomize the order by sorting with random comparison
 			return answers.sort(() => Math.random() - 0.5);
 	}
+	
+	function showRandomNumber() {
+			const randomIndex = Math.floor(Math.random() * randomTaulukko.length);
+			const randomElement = randomTaulukko[randomIndex];
+			openModal('Satunnainen numero', 'Satunnainen numero 1-10: ' + randomElement);
+	}
 
 	let shuffledAnswers = $state(randomizeAnswers());
 
@@ -114,11 +138,7 @@
 <h1>Otsikko</h1>
 
 <Button
-	onclick={() => {
-			const randomIndex = Math.floor(Math.random() * randomTaulukko.length);
-			const randomElement = randomTaulukko[randomIndex];
-			alert(randomElement);
-	}} 
+	onclick={showRandomNumber}
 	text="Random numero 1-10"
 />
 
@@ -135,3 +155,13 @@
 
 <!-- Added a button to get a new question -->
 <Button onclick={() => newQuestion()} text="Uusi kysymys"/>
+
+{#if showModal}
+	<Modal>
+		<header style="font-weight: bold;">{modalTitle}</header>
+
+		<div> {modalMessage} </div>
+
+		<footer> 		<Button onclick={() => closeModal()} text="Sulje" /> </footer>
+	</Modal>
+{/if}
